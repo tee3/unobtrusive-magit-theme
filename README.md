@@ -99,6 +99,20 @@ The `mustang` theme for the GUI Emacs has no support for Magit.
 
 ![GUI mustang Theme with Unobtrusive Magit](screenshots/gui-mustang-unobtrusive-magit.png "GUI mustang Theme with Unobtrusive Magit")
 
+### GUI chocolate (via package) Theme
+
+The `chocolate` theme for the GUI Emacs has support for Magit so
+loading the `unobtrusive-magit` theme first takes precedence over the
+Magit values.
+
+#### Without `unobtrusive-magit`
+
+![GUI chocolate Theme](screenshots/gui-chocolate.png "GUI chocolate Theme")
+
+#### With `unobtrusive-magit`
+
+![GUI chocolate Theme with Unobtrusive Magit](screenshots/gui-chocolate-unobtrusive-magit.png "GUI chocolate Theme with Unobtrusive Magit")
+
 ## Acknowledgments
 
 * FSF and GNU
