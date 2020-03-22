@@ -17,6 +17,14 @@ Magit.
 
 ## Installation
 
+### Using Emacs package
+
+The `unobtrusive-magit-theme` is available from both MELPA and MELPA
+Stable.
+
+See [documentation](https://www.gnu.org/software/emacs/manual/html_node/emacs/Packages.html)
+to learn more about Emacs package.
+
 ### Manual
 
 Add the path to `unobtrusive-magit-theme` to the
