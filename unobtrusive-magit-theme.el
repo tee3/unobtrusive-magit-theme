@@ -3,7 +3,9 @@
 ;; Copyright (C) 2016 Thomas A. Brown
 
 ;; Author: Thomas A. Brown <tabsoftwareconsulting@gmail.com>
-;; Keywords: faces, vc
+;; URL: https://github.com/tee3/unobtrusive-magit-theme
+;; Keywords: faces, vc, magit
+;; Package-Requires: ((emacs "24.1"))
 ;; Version: 0.1
 
 ;; This file is free software; you can redistribute it and/or modify
