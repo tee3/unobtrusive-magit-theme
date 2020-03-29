@@ -6,6 +6,12 @@ An Emacs theme to support Magit and related modes by inheriting from
 standard Emacs faces such as those provided by Emacs VC and Diff.
 This allows Magit to blend in with the rest of the theme.
 
+This theme does not follow the Magit [advice on theming
+faces](https://magit.vc/manual/magit/Theming-Faces.html).  It will
+hide the finer details of Magit and result in a loss of visual
+information.  See https://github.com/magit/magit/issues/4079 for a
+discussion.
+
 NOTE: This currently only works if the theme has not defined faces for
 Magit.
 
