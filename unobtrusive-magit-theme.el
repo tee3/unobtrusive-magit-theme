@@ -168,5 +168,5 @@ standard Emacs components.")
                (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'unobtrusive-magit)
-
+(provide 'unobtrusive-magit-theme)
 ;;; unobtrusive-magit-theme.el ends here
