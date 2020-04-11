@@ -1,4 +1,4 @@
-;;; unobtrusive-magit-theme.el --- An unobtrusive Magit theme
+;;; unobtrusive-magit-theme.el --- An unobtrusive Magit theme  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2016 Thomas A. Brown
 
