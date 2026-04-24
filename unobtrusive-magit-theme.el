@@ -64,43 +64,43 @@ standard Emacs components.")
 
    `(magit-section-heading			((t (:inherit font-lock-type-face))))
    `(magit-section-heading-selection		((t (:weight bold))))
-   `(magit-section-heading-secondary-heading	((t (:inherit magit-section-heading-selection))))
+   `(magit-section-heading-secondary-heading	((t (:weight bold))))
    `(magit-section-highlight			((t ())))
 
-   `(magit-diff-file-heading			((t (:inherit diff-file-headxoer))))
-   `(magit-diff-file-heading-highlight		((t (:inherit magit-diff-file-heading))))
-   `(magit-diff-file-heading-selection		((t (:inherit magit-diff-file-heading))))
+   `(magit-diff-file-heading			((t (:inherit diff-file-header))))
+   `(magit-diff-file-heading-highlight		((t (:inherit diff-file-header))))
+   `(magit-diff-file-heading-selection		((t (:inherit diff-file-header))))
 
    `(magit-diff-hunk-heading			((t (:inherit diff-hunk-header))))
-   `(magit-diff-hunk-heading-highlight		((t (:inherit magit-diff-hunk-heading))))
-   `(magit-diff-hunk-heading-selection		((t (:inherit magit-diff-hunk-heading))))
+   `(magit-diff-hunk-heading-highlight		((t (:inherit diff-hunk-header))))
+   `(magit-diff-hunk-heading-selection		((t (:inherit diff-hunk-header))))
    `(magit-diff-hunk-region			((t (:inherit default))))
 
    `(magit-diff-lines-boundary			((t (:inherit default))))
    `(magit-diff-lines-heading			((t (:inherit heading-line))))
 
    `(magit-diff-added				((t (:inherit diff-added))))
-   `(magit-diff-added-highlight			((t (:inherit magit-diff-added))))
+   `(magit-diff-added-highlight			((t (:inherit diff-added))))
 
    `(magit-diff-removed				((t (:inherit diff-removed))))
-   `(magit-diff-removed-highlight		((t (:inherit magit-diff-removed))))
+   `(magit-diff-removed-highlight		((t (:inherit diff-removed))))
 
    `(magit-diff-context				((t (:inherit diff-context))))
-   `(magit-diff-context-highlight		((t (:inherit magit-diff-context))))
+   `(magit-diff-context-highlight		((t (:inherit diff-context))))
 
    `(magit-diff-our				((t (:inherit ediff-current-diff-A))))
-   `(magit-diff-our-highlight			((t (:inherit magit-diff-our))))
+   `(magit-diff-our-highlight			((t (:inherit ediff-current-diff-A))))
 
    `(magit-diff-base				((t (:inherit ediff-current-diff-Ancestor))))
-   `(magit-diff-base-highlight			((t (:inherit magit-diff-base))))
+   `(magit-diff-base-highlight			((t (:inherit ediff-current-diff-Ancestor))))
 
    `(magit-diff-their				((t (:inherit ediff-current-diff-C))))
-   `(magit-diff-their-highlight			((t (:inherit magit-diff-their))))
+   `(magit-diff-their-highlight			((t (:inherit ediff-current-diff-C))))
 
    `(magit-diff-whitespace-warning		((t (:inherit trailing-whitespace))))
 
    `(magit-diffstat-added			((t (:inherit diff-added))))
-   `(magit-diffstat-removed			((t (:inherit magit-diffstat-removed))))
+   `(magit-diffstat-removed			((t (:inherit diff-removed))))
 
    `(magit-process-ok				((t (:inherit success))))
    `(magit-process-ng				((t (:inherit error))))
@@ -129,13 +129,13 @@ standard Emacs components.")
    `(magit-blame-dimmed				((t (:inherit shadow))))
 
    `(magit-refname				((t (:inherit change-log-list))))
-   `(magit-refname-stash			((t (:inherit magit-refname))))
-   `(magit-refname-wip				((t (:inherit magit-refname))))
+   `(magit-refname-stash			((t (:inherit change-log-list))))
+   `(magit-refname-wip				((t (:inherit change-log-list))))
 
    `(magit-branch-local				((t (:inherit change-log-list))))
-   `(magit-branch-current			((t (:inherit magit-branch-local :weight bold))))
+   `(magit-branch-current			((t (:inherit change-log-list :weight bold))))
    `(magit-branch-remote			((t (:inherit change-log-list))))
-   `(magit-branch-remote-head			((t (:inherit magit-branch-remote :weight bold))))
+   `(magit-branch-remote-head			((t (:inherit change-log-list :weight bold))))
    `(magit-branch-upstream			((t (:inherit change-log-list :inverse-video t))))
 
    `(magit-mode-line-process			((t (:inherit mode-line-emphasis))))
